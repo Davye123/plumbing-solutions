@@ -16,9 +16,9 @@ const Navbar = () => {
           <div className='hidden md:flex flex-1 justify-center items-center'>
             <ul className='flex gap-8 items-center mx-8'>
               <li><a href="#Header" className='cursor-pointer hover:text-gray-400'>Home</a></li>
-              <li><a href="#Header" className='cursor-pointer hover:text-gray-400'>About</a></li>
-              <li><a href="#Header" className='cursor-pointer hover:text-gray-400'>Projects</a></li>
-              <li><a href="#Header" className='cursor-pointer hover:text-gray-400'>Testimonials</a></li>
+              <li><a href="#About" className='cursor-pointer hover:text-gray-400'>About</a></li>
+              <li><a href="#Projects" className='cursor-pointer hover:text-gray-400'>Projects</a></li>
+              <li><a href="#Testimonials" className='cursor-pointer hover:text-gray-400'>Testimonials</a></li>
             </ul>
           </div>
           <div className='hidden md:block'>
@@ -36,9 +36,9 @@ const Navbar = () => {
           <div className='h-full flex flex-col justify-center items-center'>
             <ul className='flex flex-col items-center gap-8 text-white'>
               <li><a href="#Header" onClick={toggleMenu} className='cursor-pointer hover:text-gray-400'>Home</a></li>
-              <li><a href="#Header" onClick={toggleMenu} className='cursor-pointer hover:text-gray-400'>About</a></li>
-              <li><a href="#Header" onClick={toggleMenu} className='cursor-pointer hover:text-gray-400'>Projects</a></li>
-              <li><a href="#Header" onClick={toggleMenu} className='cursor-pointer hover:text-gray-400'>Testimonials</a></li>
+              <li><a href="#About" onClick={toggleMenu} className='cursor-pointer hover:text-gray-400'>About</a></li>
+              <li><a href="#Projects" onClick={toggleMenu} className='cursor-pointer hover:text-gray-400'>Projects</a></li>
+              <li><a href="#Testimonials" onClick={toggleMenu} className='cursor-pointer hover:text-gray-400'>Testimonials</a></li>
               <li>
                 <button onClick={toggleMenu} className='bg-white px-8 py-2 rounded-full text-black'>Signup</button>
               </li>
