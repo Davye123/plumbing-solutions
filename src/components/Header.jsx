@@ -10,7 +10,7 @@ const Header = () => {
           <h2 className='text-5xl sm:text-6xl md:text-[82px] font-semibold text-center w-full'>Plumbing at its best</h2>
 
           <div className='flex space-x-6 mt-16 justify-center w-full'>
-              <a href="#PROJECTS" className='border border-white px-8 py-3 rounded hover:bg-white hover:text-black transition-colors'>Projects</a>
+              <a href="#Projects" className='border border-white px-8 py-3 rounded hover:bg-white hover:text-black transition-colors'>Projects</a>
               <a href="CONTACT" className='bg-blue-500 px-8 py-3 rounded hover:bg-blue-600 transition-colors'>Contact us</a>
           </div>
         </div>
